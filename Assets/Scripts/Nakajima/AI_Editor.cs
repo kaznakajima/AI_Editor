@@ -33,8 +33,8 @@ namespace AI_EditorWindow
         [MenuItem("Window/AI Editor")]
         static void CreateEditor()
         {
-            _aiEdit = GetWindow<AI_Editor>();
-            _aiEdit.minSize = new Vector2(800f, 600f);
+            aiEdit = GetWindow<AI_Editor>();
+            aiEdit.minSize = new Vector2(800f, 600f);
 
         }
     }
